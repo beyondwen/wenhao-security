@@ -22,8 +22,6 @@ public class WenhaoSecurityDemoApplication {
 
     @GetMapping("/hello")
     public String hello(){
-
-
         return "hello spring security";
     }
 }
